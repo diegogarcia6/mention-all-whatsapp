@@ -49,7 +49,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Diseño responsivo para móviles */
+/* Diseño responsivo para dispositivos móviles */
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 1.5em;
@@ -61,5 +61,15 @@ button:hover {
 
     select, textarea, button {
         font-size: 1.2em;
+    }
+
+    /* Mejorar la visualización de los campos */
+    select, textarea {
+        padding: 12px;
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 1.3em;
     }
 }
